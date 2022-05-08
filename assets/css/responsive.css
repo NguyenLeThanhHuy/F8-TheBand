@@ -1,0 +1,107 @@
+@media (min-width: 1024px) {
+    .nav-header li:hover .subnav {
+        display: block;
+    }
+}
+
+
+@media (min-width: 740px ) and (max-width: 1023px)
+{
+  
+}
+
+@media (max-width: 740px )
+{
+    .header {
+        overflow: hidden;
+    }
+
+    .header-visible {
+        overflow: visible;
+    }
+
+    .header-js {
+        height: auto;
+    }
+
+    .header .nav-search-btn {
+        display: none;
+    }
+
+    .nav-header > li {
+        display: block;
+    }
+
+    .nav-header li a {
+        padding: 1px 24px;
+    }
+
+    .nav-header {
+        display: block;
+    }
+    
+    .nav-header > li:first-child {
+        display: inline-block;
+    }
+
+    .nav-header .subnav {
+        position: initial;
+        background-color: #000;
+    }
+
+    .nav-header .subnav li {
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav-header .subnav a {
+        color: #fff;
+        padding:5px 45px;
+    }
+
+    .mobile-menu-btn
+    {
+        display: block;
+    }
+
+    .content .member-list {
+        flex-direction: column;
+    }
+
+    .content .member-item {
+        width: 100%;
+    }
+    .content .member-img {
+        width: 60%;
+    }
+
+    .places-item {
+        width: 100%;
+    }
+
+    .places-list {
+        flex-direction: column;
+    }
+
+    .slider .text-content {
+        bottom: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .form-contact-email {
+        margin-top: 8px;
+    }
+
+    .form-submit-btn {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .place-buy-btn {
+        width: 100%;
+        margin-left: -8px;
+    }
+}
+
